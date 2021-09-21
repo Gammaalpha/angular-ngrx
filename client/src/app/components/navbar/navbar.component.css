@@ -1,0 +1,14 @@
+.header {
+  padding: 5px;
+  font-size: x-large;
+}
+
+.navbar-wrapper {
+  padding: 5px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}

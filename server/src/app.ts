@@ -1,5 +1,6 @@
 const express = require('express')
 const path = require('path')
+const cors = require("cors");
 const fs = require('fs')
 const router = express
 const app = express()
@@ -27,12 +28,12 @@ const readFileFromPath = async (path: string, callback: any = null) => {
         return error;
     }
 }
-
-app.get('/status', (req: any, res: any) => {
+app.use(cors())
+app.get('/api/status', (req: any, res: any) => {
     res.json({ "status": "OK" })
 })
 
-app.get('/list', async (req: any, res: any) => {
+app.get('/api/list', async (req: any, res: any) => {
     const data = await readFileFromPath(carsDataFilePath, JSON.parse)
     if (data?.code) {
         return res.json({ "error": data, "status": 500 })
@@ -40,7 +41,7 @@ app.get('/list', async (req: any, res: any) => {
     return res.json({ "data": data, "status": 200 })
 })
 
-app.get('/details/:id', async (req: any, res: any) => {
+app.get('/api/detail/:id', async (req: any, res: any) => {
     const params = req.params;
     const key = Object.keys(req.params)[0];
     try {
