@@ -1,0 +1,199 @@
+{
+  "cars": [
+    {
+      "id": "00",
+      "year": 2018,
+      "make": "Acura",
+      "model": "ILX",
+      "description": "Powered by a 2.4L Inline 4 Cyliner producing 201HP and 180 Torque. 8-Speed Automatic Transmission. Front Wheel Drive. Black exterior, Beige+Black interior. Premium Package.",
+      "kilometers": 54581,
+      "price": 19888,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202105/2909/3958/01a156c1-5f08-4d9f-beae-9186bbf0289e.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202105/2909/3958/011783d8-b8ca-428a-8a91-d0664780b5e4.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "01",
+      "year": 2013,
+      "make": "Acura",
+      "model": "MDX",
+      "description": "-TECH PACKAGE -NAVIGATION - OUTSTANDING CONDITION - AMAZING VALUE - SAFETY CERTIFICATION INCLUDED - At Maranello BMW we are part of the R. Ferri Automotive group and we are committed to providing quality, individually selected Pre-owned BMW vehicles as well as additional luxury brands. Why buy from Maranello BMW? You only pay the price shown plus HST and licensing no hidden fees! All of our vehicles are reconditioned with our high standard of safety and certification programs. Our knowledgeable staff can assist you in purchasing the car or SUV that best suits your expectations and budget. Most of our pre-owned vehicles are sold with a warranty that protects you from un-wanted repairs. There are many warranty and extended warranty options we can provide on our vehicles that have no manufacturers warranty left on them so you can drive away worry free. We carry wide variety of affordable luxury vehicles and options fit for you, as well as the ability to finance the majority of vehicles we sell. Maranello BMW is located in the city of Vaughan in Woodbridge and proudly serves all customers in Ontario. We often ship vehicles to various provinces in Canada based on your location, so come visit our dealership website to view our inventory or book a test drive today!",
+      "kilometers": 109799,
+      "price": 19878,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/202109-0913-4549/e8915a0b-7b69-4ef5-838f-f01a1118b4bd.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/202109-0913-4549/24c06636-f6fd-4f79-9c7c-5238943d820c.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "02",
+      "year": 1996,
+      "make": "Alfa Romeo",
+      "model": "Spider",
+      "description": "Silver Alfa 916 Spider with black manual convertible roof.\nFactory custom 17\" rims.\nThis car gets lots of comments whenever I take it out.\nThis model was never sold in Canada or the USA, quite rare.\n2.0 litre Twin Spark engine. 4 cylinders, 8 spark plugs, 16 valves.\nSold certified.",
+      "kilometers": 151920,
+      "price": 14750,
+      "images": [
+        "https://tdrpmimages.azureedge.net/private/2021/8/27/e95dc7ec-6199-4774-aa92-a52683e5a8de.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/private/2021/8/27/4e6ec9c8-a25d-41fb-ba24-4eb90e53811e.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "03",
+      "year": 1998,
+      "make": "Alfa Romeo",
+      "model": "Spider",
+      "description": "Convertible. Black soft top. The exterior is Red with a Black leather interior. Black soft top. 5 Speed manual transmission. 63,408 km. FWD. 2000cc 4 cylinder engine. Options include power windows, power mirrors, AM/FM player and air conditioning.",
+      "kilometers": 63408,
+      "price": 18900,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/201907/1516/2520/0dceaf92-f3ed-4761-b7dc-c04587e24d3a.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/201907/1516/2520/10e8dc2d-f7e8-48be-a770-99b15e75b421.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "04",
+      "year": 2017,
+      "make": "Cadillac",
+      "model": "CTS",
+      "description": "Assured performance. Ingenious technology. Together they transform into a masterful experience curated to complement each and every drive. This is your 2017 Cadillac CTS.\nGlazed in a Black Raven exterior with black chrome front grilles, power side mirrors with turn signal indicators, dual exhausts that compliment the Black leather interior, balanced on a set of 18 alloy wheels. Pop open the hood and reveal a 3.6L V6 engine that is paired with an eight (8) speed automatic transmission layered with Cadillacs AWD system. Step into the interior and you will be impressed to find features including a sunroof, navigation, backup camera, heated and cooled front seats, power front seats, driver memory seat, BOSE sound system, push button start, dual climate control, Bluetooth, steering wheel-mounted controls and so much more. What are you waiting for? Come in and experience this 2017 Cadillac CTS for yourself!",
+      "kilometers": 65721,
+      "price": 28990,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202108/2513/1904/1db065a1-f8cb-4121-80db-7c3d9a29ad44.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202108/2513/1904/20715e76-20fe-4ccc-a132-b55a825f70bf.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "05",
+      "year": 2017,
+      "make": "Cadillac",
+      "model": "CTS",
+      "description": "CLEAN CARFAX / LUXURY TRIM / 3.6L / AWD / GREY ON BLACK / Alloys / Cam + Sensors / Apple + Android Auto / Blindspot / Heated + Vented Seats / Nav / JAM PACKED MID SIZED LUXE CRUISER!!!",
+      "kilometers": 75971,
+      "price": 31990,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202109/1521/0333/abf0dac1-5a6d-41dc-a086-eba845e59a95.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202109/1521/0333/791d2813-9d83-4aea-8469-5cf34e1c70a2.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "06",
+      "year": 2019,
+      "make": "Lexus",
+      "model": "RX 350",
+      "description": "This 2019 RX350, Premium , comes equipped with Lane Departure Alert, Pre-Collision System, Bluetooth, Sunroof, blind spot, Backup Camera, ACTIVE Cruise Control, Heated and ventilated Front Seats, heated rear seats AND MORE!!",
+      "kilometers": 27230,
+      "price": 44587,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/202107-1506-4234/1603abfa-43db-4467-a9c6-5612ae1772cb.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/202107-1506-4235/0736f505-bb55-4a95-bc5f-bbc0e0cd8910.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "07",
+      "year": 2021,
+      "make": "Lexus",
+      "model": "ES 300h",
+      "description": "Accelerate your life with the thrilling Lexus ES. This 2021 Lexus ES is for sale today in Toronto.\nThis Lexus IS delivers daring styling, a driver-focused cockpit, and new levels of intelligent technology - including standard Lexus Safety System+. The spindle grille is flanked by prominent air intakes that make its performance-focused spirit even more pronounced. The interior of this IS has been thoughtfully and intelligently upgraded to engage your senses and enhance your command and control. This sedan has 30,321 kms. It's silver in colour . It has a 6 speed auto transmission and is powered by a 260HP 3.5L V6 Cylinder Engine. This unit has some remaining factory warranty for added peace of mind.",
+      "kilometers": 7985,
+      "price": 62726,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202109/1320/0650/a349aaba-dcae-4bbc-bb7f-0584387794bd_overlay.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202104/2720/2946/e84de653-6ae4-4a9a-8241-43f601b2c874.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "08",
+      "year": 2018,
+      "make": "Porsche",
+      "model": "Macan",
+      "description": "Navigation, GPS, Navi, Bluetooth, Back-Up Camera, Leather Interior, Sunroof / Moonroof, AWD.\nRecent Arrival! Black 2018 Porsche Macan\nSave time, money, and frustration with our transparent, no hassle pricing. Using the latest technology, we shop the competition for you and price our pre-owned vehicles to give you the best value, upfront, every time and back it up with a free market value report so you know you are getting the best deal! With no additional fees, there's no surprises either, the price you see is the price you pay, just add the HST!",
+      "kilometers": 66315,
+      "price": 49899,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202109/0113/0834/fdb70fa5-f430-422b-9182-06c1d683de2e.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202109/0113/0834/f978fa0b-1786-4bb8-a2dc-357cdeaacc21.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "09",
+      "year": 2011,
+      "make": "Porsche",
+      "model": "911",
+      "description": "Carrera 4S, 6 cyl 3.8 Liter, 385 HP, FABSPEED Induction system, car is in pristine condition, Interior is special leather Cocoa, Power comfort Seats w/Driver Memory, PDK Transmission, Self Dimming Mirrors, Front heated seats, Heated Steering Wheel, Sport Chrono Package Plus, Navigation Module for PCM, BOSE Surround Sound-System, XM Radio, Bluetooth, Multi-function Steering Wheel in brown Leather, 19\" Carrera Sport Wheels Black painted, Sport Tailpipes, Michelin Pilot Sport 4 tires, Power tilt and sliding roof, Speed activated rear spoiler, alarm system, High performance S/S exhaust, Paint protection film on front end and in front of rear wheel openings, 2 Keys. I bought the car 1 year ago and have it checked regularly even though I have only driven it 5,000 KM. Car should be seen as the interior and exterior are spotless, engine is very strong. I have a carfax report from when I bought the car that show 2 previous owners and no issues. Car was originally purchased from Pfaff Motors in Woodbridge. I also have original dealer spec window info sheet. The mileage does not reflect in the condition of the vehicle, there are no scratches and the interior is like new.",
+      "kilometers": 140000,
+      "price": 74800,
+      "images": [
+        "https://tdrpmimages.azureedge.net/private/2021/8/29/f5ab6790-f254-41e5-8ea3-df6eeec8d34a.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/private/2021/8/29/11fb2226-e43f-4533-af98-6f808c203aed.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "10",
+      "year": 2017,
+      "make": "Porsche",
+      "model": "Macan",
+      "description": "One owner, accident free. Bought new from Oakville Porsche. Just has ceramic coating applied. Loaded with options that no other GTS has, plus an OEM Porsche cover, sport chrono pkg, carbon interior pkg, carbon steering wheel, red embroidered GTS headrests, premium plus pkg, red seat belts, Alcantara seats and headliner, gloss black wheels with impeccably clean red gloss calipers. There are no other comparable black GTS's available on the market. Price reduced, its time to go. This deal can't be beat. Financing available.",
+      "kilometers": 28000,
+      "price": 69999,
+      "images": [
+        "https://tdrpmimages.azureedge.net/private/2021/7/11/344f0c82-a161-4592-a314-8147fdd05dee.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/private/2021/7/11/d05cebed-8e07-419e-b560-5713c37447de.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "11",
+      "year": 2019,
+      "make": "Mercedes-Benz",
+      "model": "AMG GT",
+      "description": "Gt63s lease transfer. Lease start date is July 12, had this car for two months and barely drove it. The lease term is 39 months and max km during lease is 65000. The original down payment was 55000, looking to get 45000 back. Monthly payment is 2066.85. This car.has got a black and brown interior and satin blue exterior. And it also has a stage 2 tune.",
+      "kilometers": 28860,
+      "price": 45000,
+      "images": [
+        "https://tdrpmimages.azureedge.net/private/2021/9/7/7ea5d928-b874-4e03-bc0b-c2663104118f.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/private/2021/9/7/35e539d8-fa6b-4805-9330-e035903136c0.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "12",
+      "year": 2021,
+      "make": "Audi",
+      "model": "SQ5",
+      "description": "High performance SQ5 with black Optics and Red Brake Calipers",
+      "kilometers": 90,
+      "price": 72325,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/202109-1800-1609/a1505ad7-e254-47c7-8a84-f5aaf27e9465.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/202109-1800-1615/d24d2164-0943-4029-af3d-bd82de7c065a.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "13",
+      "year": 2022,
+      "make": "Volvo",
+      "model": "XC90 T6",
+      "description": "Luxury Swedish SUV for the family with all the creature comforts of modern technology and safe driver tech.",
+      "kilometers": 90,
+      "price": 79097,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202108/2718/4233/d978f64b-04f7-4ae2-a66e-bbba78f1bfa8.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202108/2718/4233/52861fee-d205-40bd-8b2b-3e83a06739a8.jpg-1024x786"
+      ]
+    },
+    {
+      "id": "11",
+      "year": 2018,
+      "make": "Volvo",
+      "model": "S90",
+      "description": "Grand and graceful, this 2018 Volvo S90 represents a faultless convergence of unparalleled power and beauty. With a Turbo/Supercharger Premium Unleaded I-4 2.0 L/120 engine powering this Automatic transmission, this ride is an intoxicating mix of precise machining and charm. It is well equipped with the following options: Window Grid Diversity Antenna, Power Memory Seat(s), Heated Leather Seats, GPS Navigation, Back-Up Cam, Free 3 month SiriusXm Subscription, Wheels: 18 5-Double Spoke Silver Alloy, Volvo On Call Emergency Sos, Voice Activated Dual Zone Front Automatic Air Conditioning, Variable Intermittent Wipers, Valet Function, Trunk/Hatch Auto-Latch, Trip Computer, Transmission: 8-Speed Geartronic Automatic -inc: start/stop and adaptive shift, and Tracker System.",
+      "kilometers": 44603,
+      "price": 38684,
+      "images": [
+        "https://tdrpmimages.azureedge.net/photos/import/202107/2723/1208/f5824b8a-ba6c-4955-ba7d-90e6c03f207b.jpg-1024x786",
+        "https://tdrpmimages.azureedge.net/photos/import/202107/0723/1825/428e4501-7582-41d4-b5a2-846b361b365e.jpg-1024x786"
+      ]
+    }
+  ]
+}
