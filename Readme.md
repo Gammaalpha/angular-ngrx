@@ -8,7 +8,7 @@
     npm install
 ```
 
-- To run the project once all installation of node module packages are complete by running the following command at root
+- To run the project once all installation of all node module packages are complete, type the following command at root
 
 ```
     npm run start
