@@ -13,7 +13,7 @@ export class CarsService {
   }
 
   getCarById(id: string) {
-    return this.makeApiCall(`details/${id}`);
+    return this.makeApiCall(`detail/${id}`);
   }
 
   getCarsList() {

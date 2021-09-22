@@ -1,0 +1,71 @@
+ngb-carousel {
+  max-width: 700px;
+  margin: 50px auto;
+}
+
+ngb-carousel img {
+  width: 100%;
+  outline: none;
+}
+
+ngb-carousel {
+  width: inherit;
+  height: inherit;
+}
+
+.carousel-inner {
+  overflow: visible;
+}
+
+.carousel-item {
+  display: flex !important;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1.2s ease-in-out, visibility 1.2s;
+  z-index: -1;
+}
+
+.carousel-item.active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
+
+::ng-deep .carousel-control-prev {
+  z-index: 20;
+  background-color: grey;
+  height: 96.5%;
+  width: 30px;
+}
+
+::ng-deep.carousel-control-next {
+  z-index: 20;
+  background-color: grey;
+  height: 96.5%;
+  width: 30px;
+}
+
+.carousel-indicators {
+  z-index: 20;
+}
+
+.picsum-img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 500px;
+  min-height: 400px;
+}
+
+.mat-card {
+  max-width: 700px;
+  margin-top: 90px;
+  background: #fdfdfd;
+  overflow-y: auto;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

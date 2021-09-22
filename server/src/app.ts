@@ -46,7 +46,7 @@ app.get('/api/detail/:id', async (req: any, res: any) => {
     const key = Object.keys(req.params)[0];
     try {
         const result: Car[] = await readFileFromPath(carsDataFilePath, JSON.parse).then((carsData) => carsData.cars.find((car: Car) => car.id === params[key]))
-        return res.json({ data: { cars: result ? result : [] }, status: 200 })
+        return res.json({ data: { car: result ? result : [] }, status: 200 })
     } catch (error) {
         console.log(error);
         return res.json({ error })

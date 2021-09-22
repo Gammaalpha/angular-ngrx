@@ -1,1 +1,37 @@
-<p>detail works!</p>
+<ng-container class="center-container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        <div>
+          {{ carDetail.make }} {{ carDetail.model }} at
+          {{ customFormat(carDetail.price, "price") }}
+        </div>
+        <div *ngIf="carDetail.images.length > 0">
+          <ngb-carousel>
+            <ng-template
+              ngbSlide
+              *ngFor="let imgSrc of carDetail.images; let i = index"
+            >
+              <div class="picsum-img-wrapper">
+                <img
+                  matCardImage
+                  [src]="imgSrc"
+                  [alt]="carDetail.make + ' ' + carDetail.model + ' image ' + i"
+                />
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
+      </mat-card-title>
+      <mat-card-subtitle>
+        {{ customFormat(carDetail.kilometers, "kilometers") }} km
+      </mat-card-subtitle>
+    </mat-card-header>
+
+    <mat-card-content>
+      <div class="overflow">
+        {{ carDetail.description }}
+      </div>
+    </mat-card-content>
+  </mat-card>
+</ng-container>

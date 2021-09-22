@@ -1,3 +1,5 @@
+import { AppState } from "../store/app.state";
+
 export interface Car {
     id: string,
     year: number,
@@ -7,4 +9,8 @@ export interface Car {
     kilometers: number,
     price: number,
     images: string[]
+}
+
+export interface FilterState {
+    filter: string
 }
