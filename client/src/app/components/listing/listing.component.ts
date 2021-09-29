@@ -27,7 +27,7 @@ export class ListingComponent implements AfterViewInit {
     { key: "model", text: "Model" },
     { key: "kilometers", text: "Kilometers" },
     { key: "price", text: "Price" },
-    { key: "detail", text: "Details", render: () => "link" },
+    { key: "detail", text: "Details" },
 
   ];
   displayedColumns: string[] = this.initCol.map((col: any) => col.key)
@@ -36,12 +36,10 @@ export class ListingComponent implements AfterViewInit {
   @ViewChild(MatPaginator) paginator: MatPaginator | any;
   @ViewChild(MatSort) sort: MatSort | any;
 
-  loading: boolean;
   carsService = new CarsService();
   carsData: Car[];
 
   constructor(private store: Store) {
-    this.loading = false;
     this.carsData = [];
     this.dataSource = new MatTableDataSource();
 
