@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ViewChild, OnInit, Input, OnChanges } from '@angular/core';
+import { AfterViewInit, Component, ViewChild } from '@angular/core';
 import { map } from 'rxjs/internal/operators/map';
 import { CarsService } from 'src/app/service/cars.service';
 import { MatPaginator } from '@angular/material/paginator';
