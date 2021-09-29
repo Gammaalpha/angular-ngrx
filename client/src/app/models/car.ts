@@ -14,3 +14,7 @@ export interface Car {
 export interface FilterState {
     filter: string
 }
+
+export interface CarsDataState {
+    cars: Car[]
+}

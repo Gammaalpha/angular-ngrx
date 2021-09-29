@@ -1,11 +1,10 @@
-import { createSelector } from "@ngrx/store";
+import { createFeatureSelector, createSelector } from "@ngrx/store";
 import { FilterState } from "src/app/models/car";
-import { AppState } from "../app.state";
 
 
-export const selectFilter = (state: AppState) => state.filterState;
+export const selectFeature = createFeatureSelector<FilterState>('filter');
 
-export const filterSelector = createSelector(
-    selectFilter,
-    (state: FilterState) => state.filter
+export const selectFeatureFilter = createSelector(
+    selectFeature,
+    state => state.filter
 )

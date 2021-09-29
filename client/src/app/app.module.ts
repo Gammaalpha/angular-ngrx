@@ -14,6 +14,9 @@ import { HomeComponent } from './components/home/home.component';
 import { MaterialModule } from './material.module';
 import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { filterReducer } from './store/reducers/filter.reducer';
+import { EffectsModule } from '@ngrx/effects';
+import { CarEffects } from './store/effect/data.effect';
+import { dataReducer } from './store/reducers/data.reducer';
 
 
 @NgModule({
@@ -30,11 +33,12 @@ import { filterReducer } from './store/reducers/filter.reducer';
     MaterialModule,
     NgbModule,
     NgbCarouselModule,
+    EffectsModule.forRoot([CarEffects]),
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'detail/:id', component: DetailComponent },
     ]),
-    StoreModule.forRoot({ state: filterReducer }),
+    StoreModule.forRoot({ filter: filterReducer, data: dataReducer }),
     // StoreModule.forRoot(reducers, { metaReducers }),
     !environment.production ? StoreDevtoolsModule.instrument() : [],
     NgbModule

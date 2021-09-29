@@ -8,7 +8,9 @@ import { Car } from 'src/app/models/car';
 import { formatValues } from 'src/app/service/util';
 import { Store } from '@ngrx/store';
 import { filterUpdateAction } from 'src/app/store/actions/filter.action';
-import { selectFilter } from 'src/app/store/selectors/filter.selector';
+import { selectFeatureFilter } from 'src/app/store/selectors/filter.selector';
+import { DataActionTypes } from 'src/app/store/actions/data.action';
+import { selectFeatureCarsData } from 'src/app/store/selectors/data.selector';
 @Component({
   selector: 'app-listing',
   templateUrl: './listing.component.html',
@@ -60,21 +62,25 @@ export class ListingComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+    this.store.dispatch({ type: DataActionTypes.GET_DATA })
+
   }
 
   ngOnInit(): void {
-    this.carsService.getCarsList()
-      .pipe(map(((carsData: any) => {
-        this.dataSource.data = carsData.data.cars;
-      }))).subscribe()
+    this.store.select(selectFeatureCarsData)
+      .pipe(
+        map((cars: any) => {
+          this.dataSource.data = cars
+        })
+      )
+      .subscribe()
   }
 
   ngAfterContentInit(): void {
-    this.store.select((store: any) => store).pipe(map(currState => {
-      console.log(currState.state.filter);
-      this.filterInput = currState.state.filter;
 
-    })).subscribe()
+    this.store.select(selectFeatureFilter)
+      .pipe(map(filter => { this.filterInput = filter }))
+      .subscribe()
   }
 
 }

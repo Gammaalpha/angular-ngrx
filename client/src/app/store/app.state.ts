@@ -1,5 +1,6 @@
-import { FilterState } from "../models/car";
+import { FilterState, CarsDataState } from "../models/car";
 
 export interface AppState {
-    readonly filterState: FilterState;
+    filter: FilterState,
+    data: CarsDataState
 }
