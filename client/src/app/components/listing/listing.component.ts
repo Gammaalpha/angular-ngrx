@@ -67,9 +67,6 @@ export class ListingComponent implements AfterViewInit {
   }
 
   ngOnInit(): void {
-
-
-
     this.store.select(selectFeatureCarsData)
       .pipe(
         map((cars: any) => {
