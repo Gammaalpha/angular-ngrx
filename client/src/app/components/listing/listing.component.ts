@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, ViewChild, OnInit, Input } from '@angular/core';
+import { AfterViewInit, Component, ViewChild, OnInit, Input, OnChanges } from '@angular/core';
 import { map } from 'rxjs/internal/operators/map';
 import { CarsService } from 'src/app/service/cars.service';
 import { MatPaginator } from '@angular/material/paginator';
@@ -11,6 +11,7 @@ import { filterUpdateAction } from 'src/app/store/actions/filter.action';
 import { selectFeatureFilter } from 'src/app/store/selectors/filter.selector';
 import { DataActionTypes } from 'src/app/store/actions/data.action';
 import { selectFeatureCarsData } from 'src/app/store/selectors/data.selector';
+import { finalize, switchMap } from 'rxjs/operators';
 @Component({
   selector: 'app-listing',
   templateUrl: './listing.component.html',
@@ -43,6 +44,8 @@ export class ListingComponent implements AfterViewInit {
     this.loading = false;
     this.carsData = [];
     this.dataSource = new MatTableDataSource();
+
+    this.store.dispatch({ type: DataActionTypes.GET_DATA })
   }
 
   customCellFormat(value: string | number, key: string) {
@@ -62,24 +65,23 @@ export class ListingComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
-    this.store.dispatch({ type: DataActionTypes.GET_DATA })
-
+    this.applyFilter()
   }
 
   ngOnInit(): void {
+
     this.store.select(selectFeatureCarsData)
       .pipe(
         map((cars: any) => {
-          this.dataSource.data = cars
+          this.dataSource.data = cars;
+        }),
+        switchMap(() => {
+          return this.store.select(selectFeatureFilter)
+            .pipe(map(filter => {
+              this.filterInput = filter
+            }))
         })
       )
-      .subscribe()
-  }
-
-  ngAfterContentInit(): void {
-
-    this.store.select(selectFeatureFilter)
-      .pipe(map(filter => { this.filterInput = filter }))
       .subscribe()
   }
 
