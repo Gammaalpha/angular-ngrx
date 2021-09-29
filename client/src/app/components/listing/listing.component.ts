@@ -11,7 +11,7 @@ import { filterUpdateAction } from 'src/app/store/actions/filter.action';
 import { selectFeatureFilter } from 'src/app/store/selectors/filter.selector';
 import { DataActionTypes } from 'src/app/store/actions/data.action';
 import { selectFeatureCarsData } from 'src/app/store/selectors/data.selector';
-import { finalize, switchMap } from 'rxjs/operators';
+import { switchMap } from 'rxjs/operators';
 @Component({
   selector: 'app-listing',
   templateUrl: './listing.component.html',
@@ -69,6 +69,8 @@ export class ListingComponent implements AfterViewInit {
   }
 
   ngOnInit(): void {
+
+
 
     this.store.select(selectFeatureCarsData)
       .pipe(
