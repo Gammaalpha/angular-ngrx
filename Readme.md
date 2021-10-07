@@ -1,4 +1,4 @@
-# IBM Front End Developer Assignment
+# Angular Ngrx Project
 
 ## Instructions
 
